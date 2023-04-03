@@ -1,0 +1,1491 @@
+@charset "UTF-8";
+/**
+* Eric Meyer's Reset CSS v2.0
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, input, textarea {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, menu, nav, section, time {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  color: black;
+  background: white;
+  overflow-x: hidden;
+  font-family: "freight-text-pro",Georgia,serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* meyerweb css reset end */
+
+textarea:focus, input:focus {
+  outline: 0;
+}
+
+input {
+  border-width: 0;
+}
+
+em {
+  font-style: italic;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.group:before,
+.group:after {
+  content: " ";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+
+.group {
+  zoom: 1; /* ie 6/7 */
+}
+
+embed,
+img,
+object,
+video {
+  max-width: 100%;
+}
+sup {
+  font-size: 58.3%;
+  vertical-align: text-top;
+}
+sub {
+  font-size: 58.3%;
+  vertical-align: text-bottom;
+}
+.no-space-between-inline-blocks {
+  *letter-spacing: normal; /*reset IE < 8*/
+  letter-spacing: -0.31em; /*webkit*/
+  word-spacing: -0.43em; /*IE < 8 && gecko*/
+}
+/*restore spacing on inner elements*/
+.no-space-between-inline-blocks > * {
+  letter-spacing: normal;
+  word-spacing: normal;
+}
+.displace {
+  left: -5000px;
+  position: absolute;
+}
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+html {
+  font-size: 16px;
+}
+body {
+  max-width: 1920px;
+  color: #000000;
+  font-size: 0.75rem; /* 12px / 16px = 0.75rem */
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 0;
+  text-decoration: none;
+}
+.global_container_ {
+  float: none;
+  height: auto;
+  margin: 0 auto;
+  position: cover;
+  width: 100%; /* 1920px / 1920px = 100% */
+  background: #ffffff center 0;
+  background-position: center top;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.top-lockup {
+  position: relative;
+}
+.red-bar {
+  height: 18px;
+  position: relative;
+  background: #b31b1b center 0;
+  background-position: center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.row-4 {
+  margin: 25px auto 0;
+  padding: 0 207px;
+  position: relative;
+  width: 1920px;
+}
+.logo-engmanagement_department {
+  float: left;
+  margin: 14px 52px 0 0;
+}
+.cornell_seal_simple_web_b31b1b {
+  float: left;
+}
+.main-content-wrapper {
+  margin: 23px 0 0;
+  position: relative;
+  z-index: 0;
+}
+.top-navigation-anchors {
+  overflow: hidden;
+  padding: 21px 13.28125% 15px; /* 255px / 1920px = 13.28125% */
+  position: relative;
+  z-index: 77;
+  background: #f7f7f7;
+}
+.top-navigation-anchors ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.top-navigation-anchors li {
+  float: left;
+}
+.top-navigation-anchors li a {
+  display: block;
+  text-align: center;
+  padding: 5px 16px;
+  text-decoration: none;
+  font-family: open-sans, Helvetica, sans-serif;
+  font-size: 15px;
+  margin-right: 20px;
+
+}
+
+
+.text {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  right: 234.5px;
+}
+
+.main-top-banner-section {
+  margin: -58px 0 0;
+  overflow: hidden;
+  padding: 134px 0 504px;
+  position: relative;
+  width: 100%; /* 1920px / 1920px = 100% */
+  z-index: 57;
+  background: url(images/layer_4.png) no-repeat center 0;
+  background-position: center top;
+  -webkit-background-size: auto;
+  -moz-background-size: auto;
+  -o-background-size: auto;
+  background-size: 100vw 100vh;
+}
+.l-constrained-3 {
+  margin: 0 auto;
+  position: relative;
+  width: 1920px;
+}
+.title-red-bar-holder {
+  padding: 22px 88px 17px;
+  position: relative;
+  top: 25px;
+  width: 721px;
+  background: #b31b1b;
+}
+
+.title-red-bar-holder span{
+  font-size: 30px;
+  font-weight: bold;
+}
+.text-2 {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  right: 70px;
+  width: 330px;
+  height: 46px
+
+}
+.text-3 {
+  display: block;
+  margin: 19px 0 0 123px;
+  position: relative;
+  top: 20px;
+}
+.text-4 {
+  display: block;
+  margin: 77px 0 0 121px;
+  position: relative;
+  bottom: 5px;
+}
+.row {
+  left: 253.5px;
+  margin: 45px auto 0;
+  min-height: 85px;
+  padding: 24px 44px;
+  position: relative;
+  bottom: 120px;
+  width: 880px;
+  background: #ffffff;
+}
+.text-5 {
+  float: left;
+  margin: 0 18px 0 0;
+}
+.text-6 {
+  float: left;
+  margin: 11px 0 0;
+}
+.program-benefits {
+  margin: -108px auto 0;
+  padding: 0 123px;
+  position: relative;
+  width: 1920px;
+  z-index: 67;
+}
+.col-7 {
+  float: left;
+  min-height: 716px;
+  position: relative;
+  width: 922px;
+}
+/*
+.col-3 {
+  min-height: 418px;
+  padding: 195px 0 122px;
+  position: relative;
+  background: rgba(77, 78, 83, 0.85);
+  bottom: 265px;
+  right: 50px;
+  width: 630px;
+}
+*/
+
+.text-7 {
+  display: block;
+  margin: 0 auto 50px 0;
+  position: relative;
+  
+ 
+}
+.play-button {
+  display: block;
+  margin: 72px auto 0;
+  position: relative;
+  bottom: 50px;
+}
+.cta-button-red-holder {
+  margin: 113px auto 0;
+  padding: 26px 0 25px;
+  position: relative;
+  top: 100px;
+  width: 506px;
+  right: 105px;
+  height: 20px;
+  background: #b31b1b;
+}
+.text-8 {
+  display: block;
+  margin: 0 auto;
+  height: 60px;
+  width: 180px;
+  padding-bottom: 50px;
+  font-size: 30px;
+  
+}
+.col-5 {
+  float: right;
+  margin: 174px 1px 0 0;
+  position: relative;
+  right: 480px;
+  bottom: 300px;
+  width: 509px;
+}
+.text-9 {
+  display: block;
+  margin: 0 0 0 4px;
+  position: relative;
+  bottom: 410px;
+  width: 500px;
+  height: 300px;
+}
+.text-10 {
+  display: block;
+  margin: 40px 0 0;
+  position: relative;
+  bottom: 500px;
+}
+.program-focus-section {
+  margin: 187px auto 0;
+  position: relative;
+  width: 1920px;
+  z-index: 34;
+}
+.text-11 {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  right: 225.3px;
+  bottom: 593px;
+  width: 771px;
+  height:80px;
+}
+.wrapper-5 {
+  height: 1179px;
+  margin: 25px 0 0 100px;
+  position: relative;
+  bottom: 290px;
+  width: 1920px;
+}
+.wrapper-5 img {
+  position: relative;
+  bottom: 250px;
+}
+.adobestock_579125386 {
+  left: 50%;
+  
+  width: 360px;
+  height: 360px;
+  position: absolute;
+  top: 0;
+  margin-left: -960px;
+}
+.col {
+  left: 30%;
+  min-height: 1178px;
+  padding: 154px 114px;
+  position: relative;
+  right: 150px;
+  top: 1px;
+  width: 767px;
+  background: #f7f7f7;
+}
+.lead {
+  display: block;
+  margin: 0 0 0 4px;
+  position: relative;
+}
+.text-12 {
+  display: block;
+  margin: 29px 0 0 4px;
+  position: relative;
+}
+.advance {
+  display: block;
+  margin: 95px 0 0;
+  position: relative;
+}
+.text-13 {
+  display: block;
+  margin: 32px 0 0 4px;
+  position: relative;
+}
+.disrupt {
+  display: block;
+  margin: 92px 0 0;
+  position: relative;
+}
+.text-14 {
+  display: block;
+  margin: 18px 0 0;
+  position: relative;
+}
+.ellipse-1-holder {
+  left: 30%;
+  padding: 34px 0 29px;
+  position: absolute;
+  top: 137px;
+  width: 153px;
+  -webkit-border-radius: 76.38px;
+  -moz-border-radius: 76.38px;
+  border-radius: 76.38px;
+  background: #b31b1b;
+  margin-left: 116px;
+}
+.vector-smart-object {
+  display: block;
+  margin: 0 auto;
+}
+.ellipse-1-holder-2 {
+  left: 30%;
+  padding: 35px 28px 39px;
+  position: absolute;
+  top: 464px;
+  width: 153px;
+  -webkit-border-radius: 76.38px;
+  -moz-border-radius: 76.38px;
+  border-radius: 76.38px;
+  background: #b31b1b;
+  margin-left: 117px;
+}
+.vector-smart-object-2 {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  right: 4.5px;
+}
+.ellipse-1-holder-3 {
+  left: 30%;
+  padding: 36px 0;
+  position: absolute;
+  top: 795px;
+  width: 153px;
+  -webkit-border-radius: 76.38px;
+  -moz-border-radius: 76.38px;
+  border-radius: 76.38px;
+  background: #b31b1b;
+  margin-left: 118px;
+}
+.vector-smart-object-3 {
+  display: block;
+  margin: 0 auto;
+}
+.col-8 {
+  margin: 42px auto 0;
+  min-height: 653px;
+  position: relative;
+  bottom: 180px;
+  width: 922px;
+  
+}
+.col-2 {
+  min-height: 518px;
+  padding: 207px 0 122px;
+  position: relative;
+  background: rgba(77, 78, 83, 0.85);
+  bottom: 380px;
+  right: 10%;
+  width: 650px;
+}
+.text-15 {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  bottom: 20px;
+  width: 515px;
+  height: 40
+}
+.layer-2 {
+  display: block;
+  margin: 48px auto 0;
+  position: relative;
+  right: 9px;
+}
+.rectangle-2-holder {
+  margin: 113px auto 0;
+  padding: 26px 0 25px;
+  position: relative;
+  bottom: 380px;
+  width: 626px;
+  right: 215px;
+  height: 20px;
+  background: #b31b1b;
+}
+.text-16 {
+  display: block;
+  margin: 0 auto;
+  height: 20px;
+  width: 100px;
+  padding-bottom: 10px;
+}
+.testimonials-section {
+  height: 419px;
+  margin: 41px 0 0;
+  position: relative;
+  bottom: 180px;
+  width: 100%; /* 1920px / 1920px = 100% */
+  z-index: 24;
+}
+.text-17 {
+  left: 50%;
+  position: absolute;
+  top: 185px;
+  margin-left: -437px;
+}
+.col-6 {
+  left: 0;
+  padding: 73px 0 80px;
+  position: absolute;
+  top: 0;
+  width: 100%; /* 1920px / 1920px = 100%;
+  */
+  background: #f7f7f7;
+}
+.col-6 p {
+  font-style: italic;
+  font-size: 15px;
+  line-height: 1.7;
+  word-wrap: break-word;
+}
+.alumni-image {
+  float: left;
+  margin-left: 100px;
+  width: 170px; 
+  height: 170px; 
+  margin-right: 15px;
+}
+.l-constrained-4 {
+  margin: 0 auto;
+  padding: 0 133px;
+  position: relative;
+  width: 960px;
+}
+.text-18 {
+  display: block;
+  margin: 0 0 0 117px;
+  position: relative;
+  left: 120px;
+  bottom: 30px;
+  font-size: 30px;
+}
+.row-3 {
+  display: table;
+  margin: 40px auto 0;
+  position: relative;
+}
+.text-19 {
+  float: left;
+  margin: 43px 0 0;
+}
+.stephen-spitlter-image {
+  float: left;
+  margin: 0 0 0 132px;
+}
+.text-20 {
+  float: left;
+  margin: 17px 0 0 47px;
+}
+.text-21 {
+  float: left;
+  margin: 42px 0 0 100px;
+}
+.application-requirements-section {
+  margin: 2px 0 0 33px;
+  padding: 113px 0 137px;
+  position: relative;
+  width: 95%; /* 1920px / 1920px = 100% */
+  height: 626px;
+  z-index: 17;
+  background: url(images/application_requirements_rd.png) no-repeat center 0;
+  background-position: center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: auto;
+}
+.l-constrained-2 {
+  margin: 0 auto;
+  padding: 0 253px;
+  position: relative;
+  width: 1920px;
+}
+.text-22 {
+  display: block;
+  position: relative;
+  bottom: 50px;
+}
+.text-23 {
+  display: block;
+  margin: 37px 0 0;
+  position: relative;
+  bottom: 50px;
+}
+.text-24 {
+  display: block;
+  margin: 49px 0 0;
+  position: relative;
+  bottom: 50px;
+}
+.apply-now-section {
+  margin: 73px auto 0;
+  position: relative;
+  bottom: 50%;
+  right: 15%;
+  width: 1920px;
+  z-index: 12;
+}
+.text-25 {
+  display: block;
+  margin: 0 auto;
+}
+.apply-now-red-button-holder {
+  margin: 54px auto 0;
+  padding: 18px 0 23px;
+  position: relative;
+  width: 626px;
+  height: 50px;
+  background: #b31b1b;
+}
+.text-26 {
+  display: block;
+  margin: 0 auto;
+}
+.footer {
+  margin: 129px 0 0;
+  padding: 51px 0 68px;
+  position: relative;
+  background: #b31b1b center 0;
+  background-position: center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.l-constrained {
+  margin: 0 auto;
+  padding: 0 99px 0 252px;
+  position: relative;
+  width: 1920px;
+}
+.col-4 {
+  float: left;
+  position: relative;
+  width: 251px;
+}
+.cornellengineering_logo_oneline_white {
+  display: block;
+  margin: 0 0 0 2px;
+  position: relative;
+  right: 180px;
+}
+.text-27 {
+  display: block;
+  margin: 42px 0 0;
+  position: relative;
+  right: 180px;
+}
+.cornell_university-seal_white {
+  float: left;
+  margin: 85px 0 0 195px;
+}
+.text-28 {
+  float: left;
+  margin: 88px 0 0 411px;
+  position: relative;
+  right: 50px;
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlide {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: relative;
+  top: 30%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 50px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.prev {
+  position: absolute;
+  right: 1050px;
+  border-radius: 3px 0 0 3px;
+}
+.next {
+  position: absolute;
+  left: 1050px;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  position: relative;
+  top: 60px;
+  right: 1px;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+.left-group {
+  display: inline-block;
+  width: 50vw;
+  height: 100vh;
+  padding: 5px;
+  background: url(images/adobestock_579125386.png)   
+  
+}
+.right-group {
+  display: inline-block;
+  width: 50vw;
+  height: 100vh;
+  padding: 5px;
+  border: 1px solid blue;    
+  background-color: yellow; 
+  
+}
+
+.vector-holder {
+  background-color: #b31b1b;
+  border-radius: 74.3px;
+}
+
+.apply-now-red-button-holder span {
+  color:white; 
+  position: relative;
+  left: 37%;
+  bottom: 5px;
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; 
+  font-weight: bolder;
+}
+
+/*accelerate your growth 1 n 2*/
+.cta-button-red-holder span {
+  color:white; 
+  position: relative;
+  left: 20%;
+  bottom: 12px;
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; 
+  font-weight: bolder;
+}
+
+.rectangle-2-holder span {
+
+  color:white; 
+  position: relative;
+  left: 28%;
+  bottom: 12px;
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; 
+  font-weight: bolder;
+
+}
+.cornell-video-1 {
+  width: 680px;
+  height: 464px;
+  position: relative;
+  bottom: 292.5px;
+  right: 995px;
+}
+
+#overlay {
+  position: absolute;
+  display: none;
+  width: 680px;
+  height: 464px;
+  left: 50px;
+  right: 0;
+  bottom: 1095px;
+  background-color: rgba(0,0,0,0.6);
+  z-index: 2;
+  cursor: pointer;
+
+}
+
+#overlay-2 {
+  position: absolute;
+  display: none;
+  width: 680px;
+  height: 464px;
+  right: 335px;
+  bottom: 482px;
+  background-color: rgba(0,0,0,0.6);
+  z-index: 2;
+  cursor: pointer;
+
+}
+
+.cornell-video-2 {
+  width: 680px;
+  height: 464px;
+  position: relative;
+  bottom: 292.5px;
+  right: 95px;
+}
+
+#text {
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+  color: white;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+
+}
+
+@media screen and (max-width:600px) {
+  body {
+    overflow-x: hidden;
+    max-width: 390px;
+
+  }
+  .red-bar {
+    height: 18px;
+    width: 100%;
+    position: relative;
+    background: #b31b1b center 0;
+    background-position: center top;
+    -webkit-background-size: cover;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+  }
+
+  .row-4 {
+    margin: 25px auto 0;
+    padding: 0 207px;
+    position: relative;
+    width: 600px;
+  }
+  .logo-engmanagement_department {
+    float: left;
+    margin: 14px 52px 0 0;
+    position: relative;
+    right: 150px;
+    width: 150px;
+    height: 30px;
+  }
+  .cornell_seal_simple_web_b31b1b {
+    float: left;
+    position: relative;
+    left: 20px;
+    height: 45px;
+    width: 50px;
+    bottom: 40px;
+    
+  }
+  /*mobile top navigation anchors*/
+  .top-navigation-anchors {
+    overflow: hidden;
+    padding: 5px 0 5px; /* 255px / 1920px = 13.28125% */
+    position: relative;
+    bottom: 50px;
+    z-index: 77;
+    background: #f7f7f7;
+  }
+  .top-navigation-anchors ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  .top-navigation-anchors li {
+    float: left;
+  }
+  .top-navigation-anchors li a {
+    display: block;
+    text-align: center;
+    padding: 5px 11px;
+    text-decoration: none;
+    font-family: open-sans, Helvetica, sans-serif;
+    font-size: 10px;
+    margin-right: 1px;
+  
+  }
+
+  /* main top banner */
+
+  .main-top-banner-section {
+    margin: -58px 0 0;
+    overflow: hidden;
+    padding: 134px 0 504px;
+    position: relative;
+    width: 100%; /* 1920px / 1920px = 100% */
+    z-index: 57;
+    background: url(images/layer_4.png) no-repeat center 0;
+    background-position: center top;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+    background-size: 100vw 50vh;
+  }
+
+  /* red bar holder */
+
+  .title-red-bar-holder {
+    padding: 22px 88px 17px;
+    position: relative;
+    bottom: 55px;
+    width: 315px;
+    height: 30px;
+    background: #b31b1b;
+  }
+
+  .title-red-bar-holder span {
+    font-size: 20px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+
+  .text-2 {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    right: 65px;
+    font-size: 150px;
+    padding-top: 5px;
+    bottom: 20px;
+    height: 50px;
+    width: 460px;
+  
+  }
+
+  .text-3 {
+    display: block;
+    margin: 19px 0 0 3px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    width: 200px;
+    height: 20px;
+  }
+  .text-4 {
+    display: block;
+    margin: 37px 0 0 20px;
+    position: relative;
+    bottom: 5px;
+    width: 210px;
+    height: 80px;
+  }
+  
+  /* start here row */
+  .row {
+    right: 453.5px;
+    margin: 45px auto 0;
+    min-height: 85px;
+    padding: 24px 44px;
+    position: relative;
+    left: 53.5px;
+    bottom: 80px;
+    width: 100px;
+    background: #ffffff;
+  }
+
+  .col-7 {
+    float: left;
+    min-height: 716px;
+    position: relative;
+    width: 922px;
+  }
+  .col-3 {
+    min-height: 110px;
+    padding: 195px 0 122px;
+    position: relative;
+    background: rgba(77, 78, 83, 0.85);
+    bottom: 135px;
+
+    right: 50px;
+    width: 230px;
+    height: 50px;
+  }
+
+  .text-7 {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    bottom: 150px;
+    right: 140px;
+    width: 194px;
+    height: 20px;
+   
+  }
+
+  .play-button {
+    display: block;
+    margin: 72px auto 0;
+    position: relative;
+    bottom: 130px;
+    width: 54px;
+    height: 33px;
+  }
+
+  .cta-button-red-holder {
+    margin: 23px auto 0;
+    padding: 16px 0 25px;
+    position: relative;
+    bottom: 530px;
+    width: 206px;
+    right: 390px;
+    height: 20px;
+    background: #b31b1b;
+  }
+
+
+  .cta-button-red-holder span {
+    color:white;
+    position: relative;
+    left: 25px;
+    top: 1px;
+    bottom: 2px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+  }
+  a .button-text {
+    font-size: 12px;
+  }
+
+  .title-red-bar-holder span {
+    color:white;
+    position: relative;
+    right: 50px;
+    bottom: 8px;
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+  }
+
+  .program-focus-section {
+    margin: 187px auto 0;
+    position: relative;
+    width: 600px;
+    z-index: 34;
+  }
+
+  .text-11 {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    right: 109.3px;
+    top: 553px;
+    width: 251px;
+    height: 44px;
+  }
+
+  .adobestock_579125386 {
+    left: 50%;
+    width: 260px;
+    height: 260px;
+    position: absolute;
+    top: 1093px;
+    margin-left: -960px;
+  }
+
+  .col-5 {
+    margin: 174px 1px 850px 0;
+    position: relative;
+    right: 1250px;
+    top: 10px;
+    bottom: 850px;
+    width: 309px;
+    height: 10px;
+  }
+
+  /* not done*/
+  .col {
+    min-height: 1178px;
+    padding: 154px 114px;
+    position: relative;
+    right: 150px;
+    top: 1px;
+    width: 767px;
+    background: #f7f7f7;
+  }
+
+  .text-9 {
+    display: block;
+    margin: 0 0 0 4px;
+    position: relative;
+    width: 400px;
+    height: 300px;
+  }
+
+  .application-requirements-section {
+    margin: 100px 0 0 0;
+    padding: 113px 0 137px;
+    position: relative;
+    top: 100px;
+    width: 100vw; /* 1920px / 1920px = 100% */
+    height: 70vh;
+    z-index: 17;
+    background: url(images/application_requirements_mobile.png) no-repeat center 0;
+    background-position: center top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: auto;
+  }
+
+  .apply-now-section {
+    margin: 73px auto 0;
+    position: relative;
+    top: 150px;
+    right: 100px;
+    width: 840px;
+    height: 320px;
+    z-index: 12;
+  }
+
+  .text-25 {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    width: 300px;
+    height: 33px;
+    right: 120px;
+  }
+
+  .apply-now-red-button-holder {
+    margin: 54px auto 0;
+    padding: 18px 0 23px;
+    position: relative;
+    right: 120px;
+    width: 226px;
+    height: 20px;
+    background: #b31b1b;
+  }
+
+  .apply-now-red-button-holder span {
+    color:white; 
+    position: relative;
+    left: 50px;
+    bottom: 5px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-weight: bolder;
+  }
+
+  .col-4 {
+    float: left;
+    position: relative;
+    width: 151px;
+  }
+
+  .cornellengineering_logo_oneline_white {
+    display: block;
+    margin: 0 0 0 2px;
+    position: relative;
+    right: 235px;
+    width: 90px;
+    height: 18px;
+  }
+
+  .text-27 {
+    display: block;
+    margin: 22px 0 0;
+    position: relative;
+    right: 235px;
+    width: 90px;
+    height: 72px;
+  }
+
+  .cornell_university-seal_white {
+    float: left;
+    margin: 55px 0 0 195px;
+    position: relative;
+    right: 450px;
+    height: 60px;
+    width: 60px;
+
+  }
+
+  .text-28 {
+    float: left;
+    margin: 88px 0 0 0;
+    position: relative;
+    bottom: 40px;
+    right: 430px;
+    height: 55px;
+    width: 150px;
+  }
+
+  /*alumni testimonials*/
+
+  .text-18 {
+    display: block;
+    margin: 0 0 0 17px;
+    position: relative;
+    left: 60px;
+    bottom: 35px;
+    font-size: 25px;
+  }
+
+  .col-6 {
+    left: 0;
+    padding: 73px 0 80px;
+    position: absolute;
+    top: 0;
+    width: 100%; /* 1920px / 1920px = 100% */
+    height: 50vh;
+    background: #f7f7f7;
+  }
+  .col-6 p {
+    font-style: italic;
+    font-size: 10px;
+    line-height: 0.8;
+    word-wrap: break-word;
+    display: inline-block;
+    
+  }
+
+  .col-6 p span {
+    position: relative;
+    top: 130px;
+    right: 160px;
+    display: inline;
+  }
+  .alumni-image {
+    float: left;
+    margin-left: 110px;
+    height: 100px;
+  }
+
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    position: relative;
+    top: 150px;
+    right: 20px;
+  }
+
+  .prev {
+    position: absolute;
+    right: 320px;
+    border-radius: 3px 0 0 3px;
+  }
+  .next {
+    position: absolute;
+    left: 320px;
+    border-radius: 3px 0 0 3px;
+  }
+
+  .rectangle-2-holder {
+    margin: 113px auto 0;
+    padding: 26px 0 25px;
+    position: relative;
+    bottom: 390px;
+    width: 256px;
+    right: 280px;
+    height: 20px;
+    background: #b31b1b;
+    
+  }
+
+  .rectangle-2-holder span {
+    color:white;
+    position: relative;
+    left: 15%;
+    bottom: 10px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+  }
+
+  .col-2 {
+    min-height: 70px;
+    padding: 207px 0 122px;
+    position: relative;
+    background: rgba(77, 78, 83, 0.85);
+    bottom: 50%;
+    left: 50px;
+    width: 290px;
+    height: 70px;
+
+  }
+
+  .text-15 {
+    display: block;
+    margin: 0 10px 0 10px;
+    position: relative;
+    bottom: 115px;
+    width: 215px;
+    height: 20px;
+    left: 20px;
+  }
+
+  .layer-2 {
+    display: block;
+    margin: 48px auto 0;
+    position: relative;
+    right: 5px;
+    width: 50px;
+    height: 44px;
+    bottom: 130px;
+  }
+
+  .wrapper-5 {
+    height: 1279px;
+    margin: 25px 0 0 0;
+    position: relative;
+    top: 590px;
+    width: 420px;
+    
+  }
+
+  .text-9 {
+    display: block;
+    margin: 0 0 0 4px;
+    position: relative;
+    top: 550px;
+    width: 500px;
+    right: 210px;
+    height: 300px;
+  }
+  .text-10 {
+    display: block;
+    margin: 40px 0 0;
+    position: relative;
+    top: 450px;
+    right: 210px;
+    width: 450px;
+    height: 230px;
+  }
+
+  .top-navigation-anchors li a {
+    display: inline;
+    text-align: center;
+    padding: 5px 5px;
+    text-decoration: none;
+    font-family: open-sans, Helvetica, sans-serif;
+    font-size: 10px;
+    margin-right: 5px;
+  
+  }
+
+  /*videos retouch*/
+  .cornell-video-1 {
+    width: 340px;
+    height: 232px;
+    position: relative;
+    bottom: 122.5px;
+    right: 1015px;
+  }
+
+  #overlay {
+    position: absolute;
+    display: none;
+    width: 340px;
+    height: 232px;
+    left: 30px;
+    right: 0;
+    bottom: 925px;
+    background-color: rgba(0,0,0,0.6);
+    z-index: 2;
+    cursor: pointer;
+  
+  }
+  
+  #overlay-2 {
+    position: absolute;
+    display: none;
+    width: 340px;
+    height: 232px;
+    right: 565px;
+    bottom: 712px;
+    background-color: rgba(0,0,0,0.6);
+    z-index: 2;
+    cursor: pointer;
+  
+  }
+  
+  .cornell-video-2 {
+    width: 340px;
+    height: 232px;
+    position: relative;
+    bottom: 292.5px;
+    left: 15px;
+  }
+  
+}
+
+
